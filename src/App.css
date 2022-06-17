@@ -4,8 +4,5 @@
   background: rgb(44,155,255);
   background:  url('/assets/background.svg'), linear-gradient(130deg, rgba(44,155,255,1) 0%, rgba(217,130,255,1) 100%);
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
 }

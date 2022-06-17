@@ -8,7 +8,7 @@ function App() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(()=>{
-    setIsMobile(()=> window.matchMedia('(max-width: 768px)').matches);
+    setIsMobile(()=> window.matchMedia('(max-width: 821px)').matches);
     window.addEventListener('resize', ()=> setIsMobile(()=> window.matchMedia('(max-width: 768px)').matches))
     return ()=>{
       window.removeEventListener('resize', ()=> setIsMobile(()=> window.matchMedia('(max-width: 768px)').matches))
