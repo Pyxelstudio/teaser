@@ -1,0 +1,57 @@
+.Portrait {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 60px;
+  height: 470px;
+}
+
+.Portrait img {
+  max-width: 470px;
+  display: block;
+  border-radius: 25px;
+}
+
+.Portrait__text {
+  font-family: var(--montserrat);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Portrait__text h3 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.Portrait__text p {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 1000px)
+{
+  .Portrait {
+    gap: 22px;
+    margin-top: 25px;
+    height: 183px;
+  }
+  
+  .Portrait__text h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .Portrait__text p {
+    font-size: 14px;
+  }
+
+  .Portrait img {
+    max-width: 143px;
+    width: 143px;
+    border-radius: 9px;
+  }
+}

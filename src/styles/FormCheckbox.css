@@ -1,0 +1,24 @@
+.FormCheckbox label {
+    display: flex;
+    gap: 9px;
+}
+
+.FormCheckbox__checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #7d7d7d;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.FormCheckbox label p {
+    font-size: 16px;
+    font-family: var(--montserrat);
+    font-weight: 500;
+    color: #7d7d7d;
+}
+
+.checked {
+    background: rgb(44,155,255);
+}

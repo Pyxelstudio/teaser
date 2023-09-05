@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: half-regular;
+  src: url('/local_fonts/FontsFree-Net-Half-Regular.ttf');
+}
+
+:root {
+  font-size: 16px;
+  --montserrat: 'Montserrat', sans-serif;
+  --colorOne: #2C9BFF;
+  --colorTwo: #D982FF;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  user-zoom: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+

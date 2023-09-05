@@ -1,0 +1,31 @@
+
+.FormInput {
+    width: 100%;
+    border-radius: 82px;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+.FormInput input {
+    width: 100%;
+    outline: none;
+    padding: 17px 25px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    border: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .FormInput {
+        width: 100%;
+        border-radius: 45px;
+    }
+
+    .FormInput input {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}

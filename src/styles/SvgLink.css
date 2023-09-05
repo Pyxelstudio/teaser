@@ -1,0 +1,15 @@
+.SvgLink {
+    cursor: pointer;
+    transition: transform .5s ease-out;
+}
+.SvgLink  text {
+    font-family: var(--montserrat);
+    font-weight: 600;
+    display: block;
+    user-select: none;
+}
+
+.SvgLink:hover {
+    transform: scale(1.1);
+}
+

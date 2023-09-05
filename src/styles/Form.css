@@ -1,0 +1,88 @@
+
+.Form {
+    width: 100%;
+    background-color: #F9F9F9;
+    padding: 49px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.Form__container {
+    display: flex;
+    gap: 17px;
+}
+
+.Form__checkboxes {
+    width: 100%;
+}
+
+.Form__checkboxes h2 {
+    font-size: 26px;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    color: #383838;
+}
+
+.Checkbox__grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+.Checkbox__button_container
+{
+    display: flex;
+    justify-content: center;  
+}
+
+
+.Checkbox__button {
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 26px;
+    font-family: var(--montserrat);
+    font-weight: 700;
+    color: #7d7d7d;
+    padding: 8px 43px;
+    border: none;
+    background: linear-gradient(91.92deg, #2C9BFF 0%, #D982FF 100%);
+    color: #F9F9F9;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .Form {
+        padding: 20px 15px;
+        gap: 20px;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+    
+    .Form__container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Checkbox__grid  {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0px;
+        row-gap: 12px;
+        margin-top: 20px;
+    }
+
+    .Form__checkboxes h2  {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .Checkbox__button {
+        padding: 8px 16px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

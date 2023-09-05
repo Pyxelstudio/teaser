@@ -1,0 +1,19 @@
+
+.Team {
+    margin-top: 50px;
+    height: max-content;
+}
+
+.Team header {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width: 1000px)
+{
+    .Team {
+        margin-top: 25px;
+    }
+}

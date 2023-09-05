@@ -1,0 +1,28 @@
+
+
+.Clients {
+    width: 100%;
+    background-color: #F9F9F9;
+    padding: 33px 50px;
+    overflow: hidden;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.Clients-container {
+    display: flex;
+    gap: 130px;
+    width: fit-content;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .Clients {
+        padding: 20px 15px;
+        border-radius: 9px;
+    }
+    .Clients-container
+    {
+        gap: 58px;
+    }
+}

@@ -1,0 +1,49 @@
+
+.Service {
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.Service img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+/*
+.Service .wrapper  {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Service .header {
+    color: #fff;
+    font-family: half-regular;
+    font-size: 56px;
+    letter-spacing: 4%;
+    width: fit-content;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+*/
+
+@media screen and (max-width: 1000px)
+{
+    .Service {
+        border-radius: 9px;
+    }
+    .Service .header {
+        font-size: 25px;
+    }
+}

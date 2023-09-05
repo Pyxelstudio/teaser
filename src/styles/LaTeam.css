@@ -1,0 +1,15 @@
+.LaTeam {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    gap: 25px;
+}
+
+
+@media  screen and (max-width: 1000px) {
+    .LaTeam {
+        gap: 20px;
+        margin-top: 25px;
+    }
+}
+
